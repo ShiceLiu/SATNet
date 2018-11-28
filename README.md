@@ -14,7 +14,7 @@ This project mainly consists of two parts, semantic segmentation and semantic sc
 
 If you want to train either part, you should download the datasets and fix the file path in the 'config.py' and the corresponding '.sh'.
 
-If you want to test either part only, you should download the pretrained model.
+If you want to test either part only, you should download the [pretrained models](### Pretrained Models).
 
 ### Datasets
 
