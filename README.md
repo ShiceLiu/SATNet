@@ -10,6 +10,22 @@ If you find SATNet useful in your research, please cite:
 		
 	}
 
+### Requirement
+
+Operating System: Ubuntu 14.04 LTS (or higher)
+
+Deep Learning Framework: PyTorch 0.4.0a0+408c84d (Some data structures and functions might be different in other versions)
+
+Python: 2.7 (Some functions might be different in Python 3.*)
+
+Python Package: Numpy, OpenCV, Visdom, torchvision
+
+Memory: 16GB
+
+GPU: 8GB Memory for single-branch structure and 11GB~14GB Memory for double-branch structure
+
+### Introduction
+
 This project mainly consists of two parts, semantic segmentation and semantic scene completion. The semantic segmentation results will accelerate the convergence speed of semantic scene completion.
 
 If you want to train either part, you should download the [datasets](#Datasets) and fix the file path in the 'config.py' and the certain '.sh'.
