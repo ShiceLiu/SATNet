@@ -1,6 +1,6 @@
 # See and Think: Disentangling Semantic Scene Completion
 
-This repository contains training and testing code for our paper on semantic scene completion, which leverages a disentangled framework to produce more accurate completions. More information about the project can be found in [our paper](https://papers.nips.cc/paper/7310-see-and-think-disentangling-semantic-scene-completion.pdf) and the 3-minute video on the [YouTube](https://youtu.be/YXvniY2U5ml).
+This repository contains training and testing code for our paper on semantic scene completion, which leverages a disentangled framework to produce more accurate completions. More information about the project can be found in [our paper](https://papers.nips.cc/paper/7310-see-and-think-disentangling-semantic-scene-completion.pdf) and the 3-minute [video](https://youtu.be/YXvniY2U5ml).
 
 ![framework](image/framework.png)
 
