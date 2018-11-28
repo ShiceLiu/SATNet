@@ -30,32 +30,32 @@ The pretrained models are also stored in the baiduyun. The URL is []().
 
 ### Organization
 
-  Semantic_Segmentation : 
-    seg_* : the front-end of the certain task.
-    engine* : the back-end of the certain task.
-    *.sh : the interface of training.
-  
-  Semantic_Scene_Completion :
-  	NYU :
-  	  seg_* : the front-end of the certain task.
-  	  engine* : the back-end of the certain task.
-  	  *.sh : the interface of training.
-  	  gen_result_* : to generate the results of the certain task.
-  	  pretrained_models/ : training on the NYU is based on the pretrained models on the SUNCG.
-  
-  	SUNCG_D :
-  	  seg_* : the front-end of the certain task.
-  	  engine* : the back-end of the certain task.
-  	  *.sh : the interface of training.
-  	  gen_result_* : to generate the results of the certain task.
-  
-  	SUNCG_RGBD :
-  	  seg_* : the front-end of the certain task.
-  	  engine* : the back-end of the certain task.
-  	  *.sh : the interface of training.
-  	  gen_result_* : to generate the results of the certain task.
-  	  eval_results.py : to evaluate the results with the groundtruth.
-  	  labels/ : the groundtruth.
+	Semantic_Segmentation : 
+	  seg_* : the front-end of the certain task.
+	  engine* : the back-end of the certain task.
+	  *.sh : the interface of training.
+
+	Semantic_Scene_Completion :
+	  NYU :
+	    seg_* : the front-end of the certain task.
+	    engine* : the back-end of the certain task.
+	    *.sh : the interface of training.
+	    gen_result_* : to generate the results of the certain task.
+	    pretrained_models/ : training on the NYU is based on the pretrained models on the SUNCG.
+
+	  SUNCG_D :
+	    seg_* : the front-end of the certain task.
+	    engine* : the back-end of the certain task.
+	    *.sh : the interface of training.
+	    gen_result_* : to generate the results of the certain task.
+
+	  SUNCG_RGBD :
+	    seg_* : the front-end of the certain task.
+	    engine* : the back-end of the certain task.
+	    *.sh : the interface of training.
+	    gen_result_* : to generate the results of the certain task.
+	    eval_results.py : to evaluate the results with the groundtruth.
+	    labels/ : the groundtruth.
 
 ### License
 
