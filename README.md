@@ -6,8 +6,12 @@ This repository contains training and testing code for our paper on semantic sce
 
 If you find SATNet useful in your research, please cite:
 
-	@article{
-		
+	@inproceedings{liu2018see,
+	  title={See and Think: Disentangling Semantic Scene Completion},
+	  author={Liu, Shice and Hu, Yu and Zeng, Yiming and Tang, Qiankun and Jin, Beibei and Han, Yinhe and Li, Xiaowei},
+	  booktitle={Advances in Neural Information Processing Systems},
+	  pages={261--272},
+	  year={2018}
 	}
 
 ### Requirement
