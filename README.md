@@ -46,7 +46,7 @@ For example, we need to run the command 'cat myselect_suncg.zip.* > myselect_sun
 
 ### Pretrained Models
 
-The pretrained models are also stored in the baiduyun. The URL is []().
+The pretrained models are also stored in the baiduyun. The URL is [https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg](https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg).
 
 ### Organization
 
