@@ -44,6 +44,8 @@ For convenience, we split the big file into several smaller files by the instruc
 
 For example, we need to run the command 'cat myselect_suncg.zip.* > myselect_suncg.zip' to merge them.
 
+Besides, for semantic segmentation on the SUNCG-RGBD dataset, RGB-D images and their labels are stored in the baiduyun too. The URL is [https://pan.baidu.com/s/1vUt09GlkC1lPFRm8zXofZA](https://pan.baidu.com/s/1vUt09GlkC1lPFRm8zXofZA). You should unzip the 'SUNCGRGBD_images.zip' file and make a new directory named '/home/jason/lsc_datasets/' (This directory name is consistent with '~/SATNet_datasets/image_list_val.txt' and so on.). Then put all the files in the 'SUNCGRGBD_images' directory into this new directory. 
+
 ### Pretrained Models
 
 The pretrained models are also stored in the baiduyun. The URL is [https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg](https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg).
