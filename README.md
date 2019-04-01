@@ -50,6 +50,10 @@ Besides, for semantic segmentation on the SUNCG-RGBD dataset, RGB-D images and t
 
 The pretrained models are also stored in the baiduyun. The URL is [https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg](https://pan.baidu.com/s/1wk4-ShGW2PNUL3eliNa1Hg).
 
+### Data Preprocessing
+
+We have uploaded the data-preprocessing code in the 'util' directory. The data-preprocessing procedure is to convert '.bin' to '.npz'. There are several approaches to achieve it and we share one of them. We write a CUDA+C library and use Python to generate '.npz'. Unfortunately, users have to read the code and modify the certain parts to make the code run correctly.
+
 ### Organization
 
 	Semantic_Segmentation : 
