@@ -1,0 +1,3 @@
+/home/jason/lscPythoncode/pre-get_training_data/build/CMakeFiles/rebuild_cache.dir
+/home/jason/lscPythoncode/pre-get_training_data/build/CMakeFiles/edit_cache.dir
+/home/jason/lscPythoncode/pre-get_training_data/build/CMakeFiles/datautil.dir
