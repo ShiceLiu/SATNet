@@ -93,11 +93,14 @@ for index in xrange(len(colorlist)):
         continue
 
     color = cv2.imread(colorlist[index], -1)
-    depth = cv2.imread(depthlist[index], -1).astype(np.float32)
+    # depth = cv2.imread(depthlist[index], -1).astype(np.float32)
+    depth = cv2.imread(depthlist[index], -1).astype(np.uint16)
+    depth = (depth << 13) | (depth >> 3)
+    depth = depth.astype(np.float32)
 
     tsdf = np.zeros(vox_size[2]*vox_size[1]*vox_size[0], dtype=np.float32)
     depth_mapping_3d = np.ones(vox_size[2]*vox_size[1]*vox_size[0], dtype=np.float32) * (-1)
-    dp.TSDF((depth/10000.0).reshape(-1), cam_K, cam_pose, vox_origin,
+    dp.TSDF((depth/1000.0).reshape(-1), cam_K, cam_pose, vox_origin,
             vox_unit, vox_size.astype(np.float32), vox_margin, depth.shape[0], depth.shape[1],
             tsdf, depth_mapping_3d)
     depth_mapping_3d = depth_mapping_3d.astype(np.int64)
